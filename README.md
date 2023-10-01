@@ -23,8 +23,14 @@ source .venv/bin/activate
 pip install --upgrade pip
 ```
 
-## Instalação de pacotes
+## Instalação de bibliotecas
 
 ```shell
 pip install -r requirements.txt
+```
+
+Se você precisar atualizar as bibliotecas
+
+```shell
+pip install -r requirements.txt --upgrade
 ```
