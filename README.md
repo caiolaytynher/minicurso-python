@@ -1,5 +1,12 @@
 # Ambientes virtuais
 
+Para garantir que as bibliotecas utilizadas sejam instaladas de maneira isolada,
+permitindo a fácil remoção de qualquer uma delas e permitindo a garantia de
+funcionamento do gerenciador de pacotes, o Pip, os códigos serão executados
+através de um executável local que faz parte de um **ambiente virtual**. O
+próprio Python possui uma solução para criar estes ambientes, e à seguir veremos
+como é feita a sua criação, ativação e utilização.
+
 ## Criação
 
 O último argumento é o nome do ambiente virtual. Em linhas gerais, o comando
@@ -11,6 +18,9 @@ python -m venv .venv
 ```
 
 ## Ativação
+
+Antes de executar os programas, para que as bibliotecas instaladas no ambiente
+virtual funcionem, é necessário ativa-lo dentro da sessão de terminal.
 
 ### Windows
 
