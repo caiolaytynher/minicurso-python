@@ -49,6 +49,12 @@ pip install --upgrade pip
 
 ## Instalação de bibliotecas
 
+Dentro dos arquivos de ajuda, existe um que se chama `requirements.txt`, que é
+um arquivo de texto comum que contém o nome de todas as bibliotecas que serão
+instaladas. Nada impede que a instalação seja feita manualmente, é apenas boa
+prática manter um arquivo dizendo exatamente o que você instalou. Isso também
+facilita o processo de atualização.
+
 ```shell
 pip install -r requirements.txt
 ```
