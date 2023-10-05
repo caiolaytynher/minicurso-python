@@ -2,6 +2,7 @@ numpy
 scipy
 sympy
 matplotlib
+pandas
 ipython
 jupyter
 notebook
